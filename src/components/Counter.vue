@@ -14,13 +14,13 @@ export default {
     },
     count () {
       return this.$store.getters.count
-    }
+    },
   },
   methods: {
     increment () {
       this.$store.dispatch('increment')
-    }
-  }
+    },
+  },
 }
 </script>
 

@@ -14,8 +14,8 @@ export default {
   name: 'app',
   components: {
     HelloWorld,
-    Counter
-  }
+    Counter,
+  },
 }
 </script>
 
