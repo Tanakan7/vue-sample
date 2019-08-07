@@ -7,7 +7,7 @@
 
 <script>
 export default {
-  name: 'Counter',
+  name: 'DoubleCounter',
   props: {
     module: {
       type: String,
