@@ -15,6 +15,8 @@ const actions = {
 }
 
 const mutations = {
+  // シングルcounterのみの合計値をインクリメントする
+  // (not トータルカウンターのインクリメントと混同しない)
   increment (state) {
     state.count += state.step
   },

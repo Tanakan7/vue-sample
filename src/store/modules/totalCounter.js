@@ -3,7 +3,9 @@ const state = () => ({ modules: [] })
 const getters = {
   count (state, getters, rootState) {
     let sum = 0
+    // 他のモジュールにアクセスできる!
     state.modules.forEach((elem) => {
+      console.log('elem', elem)
       sum += rootState[elem].count
     })
     return sum
