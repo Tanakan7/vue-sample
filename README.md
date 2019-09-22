@@ -4,6 +4,11 @@ vuexを使用したサンプルです
 
 基本的なvuexの概念をもとにstateの読み込み・更新を行うプログラムを作成しました
 
+## デプロイ先
+
+https://tanakan7.github.io/vuex-sample/dist/
+
+
 ## Project setup
 ```
 yarn install
