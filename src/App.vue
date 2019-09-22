@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>Vuex - サンプル</h1>
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <Counter module="counterA"/>
     <Counter module="counterB"/>
     <DoubleCounter module="doubleCounterA"/>

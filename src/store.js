@@ -26,7 +26,8 @@ const store = new Vuex.Store({
   },
 })
 
-store.dispatch('totalCounter/setModules',
+store.dispatch(
+  'totalCounter/setModules',
   ['counterA', 'counterB','doubleCounterA', 'doubleCounterB']
 )
 export default store

@@ -9,12 +9,10 @@ export default {
   name: 'TotalCounter',
   computed: {
     count () {
-      return this.$store.getters[`totalCounter/count`]
+      return this.$store.getters['totalCounter/count']
     },
   },
 }
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
