@@ -1,3 +1,5 @@
+const path = require('path')
+
 module.exports = {
   chainWebpack: config => {
     config.module
@@ -7,4 +9,7 @@ module.exports = {
         fix: true,
       })
   },
+  publicPath: "./",
+  assetsDir: "",
+  outputDir: "dist"
 }
